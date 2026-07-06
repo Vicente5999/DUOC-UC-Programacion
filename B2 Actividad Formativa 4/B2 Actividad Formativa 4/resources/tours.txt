@@ -1,0 +1,40 @@
+
+
+ Registro Tour: 
+ Nombre: Tour Gastronomico | Tipo:Gastronomia | Precio: $1000000;
+ -- Cliente: -- 
+ Nombre: vicente pavez | Dirección: caliboro 9040, casa 0, , ;
+ -- Empleado: -- 
+ Nombre: Juan Alchachofa | Cargo:Asistente | Dirección: calle falsa 123, casa 10, , ;
+ -- Guía Turístico: -- 
+ Nombre:Pancho Saveedra | Dirección: calicanto 123, casa 19, , ;
+ -- Operador Local: -- 
+ Nombre:Juan Perez | Dirección: fake 123, casa 19, , ;
+ -- Proveedor: -- 
+ Nombre: Alojamientos hernandez | Dirección: calle 123, casa 57, , 
+
+ Registro Tour: 
+ Nombre: Tour Gastronomico | Tipo:Gastronomia | Precio: $1000000;
+ -- Cliente: -- 
+ Nombre: Vicente Pavez | Dirección: Caliboro 9040, casa 0, La Reina, Santiago;
+ -- Empleado: -- 
+ Nombre: Vicente Pavez Pavez | Cargo:asistente | Dirección: Caliboro 0, casa 0, La Reina, Santiago;
+ -- Guía Turístico: -- 
+ Nombre:Vicente Pave | Dirección: Caliboro 0, casa 0, , ;
+ -- Operador Local: -- 
+ Nombre:  | Dirección:  0, casa 0, , ;
+ -- Proveedor: -- 
+ Nombre:  | Dirección:  0, casa 0, , 
+
+ Registro Tour: 
+ Nombre: Tour Gastronomico | Tipo:Gastronomia | Precio: $1000000;
+ -- Cliente: -- 
+ Nombre: Vicente Pavez | Dirección: Caliboro 9040, casa 0, La Reina, Santiago;
+ -- Empleado: -- 
+ Nombre: Juan Perez | Cargo:asistente | Dirección: calle ejemplo 123, casa 57, , ;
+ -- Guía Turístico: -- 
+ Nombre:Jhon Hewitt | Dirección: calle ejemplo 123, casa 86, , ;
+ -- Operador Local: -- 
+ Nombre:Pancho Saveedra | Dirección: calle ejemplo 123, casa 0, Las Condes, Santiago;
+ -- Proveedor: -- 
+ Nombre: Vicente | Dirección: calle ejemplo 123, casa 0, la florida, santiago
