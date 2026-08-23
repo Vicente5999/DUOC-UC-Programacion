@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8E4CFC1A-8745-BB90-3514-74E0A6A87173" name="VUELO">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-21 04:16:10 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="numero_vuelo" id="9F65321B-E375-BB50-DE57-24F53410FAE8">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-21 04:16:32 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_despegue" id="247F1BFF-1D1B-6986-406A-9F14729501E2">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-21 04:19:38 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_llegada_destino" id="143743F0-8446-69F1-4D51-6151B24C8DE8">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-21 04:23:29 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_destino" id="A2174608-6428-2C5D-24F1-4F93A76F665C">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-21 04:25:23 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hora_salida_aeropuerto" id="72A83D69-2DE1-F4C1-FF65-7F274011BAFC">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-21 04:25:38 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciudad_origen" id="FF6C544E-C53A-0D08-3F9C-F74C6106DF2B">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-21 04:26:05 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula_avion" id="A305749F-C244-FE9E-AC6A-3CA1E124924E">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-21 04:27:58 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="matricula_avion1" id="9E136E99-089D-C9CA-354D-04BE33007753">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-22 03:59:21 UTC</createdTime>
+<generatorID>1F99680E-741A-22F3-B592-1B5F5D61DED3</generatorID>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<referedAttribute>9C54D7A1-6EE3-52D6-3E97-0519FA62E897</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CFDB8E7E-3633-DA4F-FD51-56E497817968" name="VUELOS PK">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-21 04:19:36 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9F65321B-E375-BB50-DE57-24F53410FAE8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

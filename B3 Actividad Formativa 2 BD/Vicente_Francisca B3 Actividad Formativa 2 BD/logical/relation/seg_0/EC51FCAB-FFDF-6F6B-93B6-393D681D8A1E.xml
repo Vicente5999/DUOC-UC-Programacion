@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_6" directorySegmentName="seg_0" id="EC51FCAB-FFDF-6F6B-93B6-393D681D8A1E">
+<createdBy>PC</createdBy>
+<createdTime>2026-08-22 04:36:43 UTC</createdTime>
+<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
+<engineerTo>
+<item key="D40FB910-65E3-D73A-E4E3-93FC2D53433B" value="true"/>
+</engineerTo>
+<sourcePk>2D987BD4-1716-6E54-D3D3-EE67883ACD28</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>tiene</nameOnSource>
+<nameOnTarget>pertenece</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>70BEE525-914C-F8F6-A5C2-DAE723440C90</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2C20D928-C0D7-4750-D32E-7271E18D0CFE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
