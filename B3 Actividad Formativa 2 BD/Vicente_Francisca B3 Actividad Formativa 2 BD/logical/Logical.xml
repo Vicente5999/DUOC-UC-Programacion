@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="DD6161FB-D67E-F78A-F30C-70304BA5BE8B" mainViewID="17C27B41-777F-04A7-2FAD-D8EAE8B077F2">
-<createdBy>PC</createdBy>
-<createdTime>2026-08-21 04:09:53 UTC</createdTime>
-<ownerDesignName>Semana_2_BT_Airways</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</LogicalDesign>
