@@ -1,0 +1,19 @@
+
+
+ -- Cliente: -- 
+ Nombre: fygthj | Apellido: ][ yul | Numero de Teléfono: 0 | Username:  | Direccion:  0, casa 0, , ;
+ -- Repartidor: -- 
+  Nombre: k; k; | Restaurante Asignado:  | Tipo de Vehiculo: ;
+ -- Pedido Comida: -- 
+ ID: ID: CM8834A | Dirección: fthd 1234, casa 789, jkl, ;klj | Tipo de Pedido: delivery de comida | Nombre de Alimento: lk | Nombre del Restaurante: hj | Tipo de Alimento: dg;model.PedidoEncomienda@3d075dc0;
+ -- Pedido Express: -- 
+ ID: null | Dirección:  0, casa 0, ,  | Tipo de Pedido: null
+
+ -- Cliente: -- 
+ Nombre: hujk | Apellido: jo; | Numero de Teléfono: 0 | Username:  | Direccion:  0, casa 0, , ;
+ -- Repartidor: -- 
+  Nombre: hjij hol | Restaurante Asignado:  | Tipo de Vehiculo: ;
+ -- Pedido Comida: -- 
+ ID: null | Dirección:  0, casa 0, ,  | Tipo de Pedido: null | Nombre de Alimento:  | Nombre del Restaurante:  | Tipo de Alimento: ;model.PedidoEncomienda@6d03e736;
+ -- Pedido Express: -- 
+ ID: null | Dirección:  0, casa 0, ,  | Tipo de Pedido: null
