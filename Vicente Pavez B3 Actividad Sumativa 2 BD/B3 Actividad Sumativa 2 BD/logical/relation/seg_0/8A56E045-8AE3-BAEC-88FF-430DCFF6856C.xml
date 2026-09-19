@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_11" directorySegmentName="seg_0" id="8A56E045-8AE3-BAEC-88FF-430DCFF6856C">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 02:30:28 UTC</createdTime>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<engineerTo>
+<item key="0BE536B1-AD48-BACC-ADB7-C3704D147089" value="true"/>
+</engineerTo>
+<sourcePk>4DB0241E-0031-A10A-BE40-F01D5E37992C</sourcePk>
+<targetPk>8407602A-A781-ECFB-8F8F-2D2CA8452C3B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CC6C81B0-6692-0AFC-D2EE-A698CDE3787A</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EC3E03FE-62C4-38AA-D51F-61D9CDC41A81</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

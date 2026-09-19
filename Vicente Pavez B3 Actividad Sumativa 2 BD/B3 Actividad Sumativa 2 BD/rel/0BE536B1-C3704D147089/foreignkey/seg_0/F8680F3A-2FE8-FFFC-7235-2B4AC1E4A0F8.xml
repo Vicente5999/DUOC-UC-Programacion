@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F8680F3A-2FE8-FFFC-7235-2B4AC1E4A0F8" containerWithKeyObject="34C8C527-AD47-F971-6B9B-F98AF04BDB99" localFKIndex="B36685A2-FC5D-D081-AFBD-46451059E1DE" name="CLIENTE_BOLETA_FK">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>63A99C51-FC23-F1A7-1686-7F81AECCFB2D</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<referredTableLongName>BOLETA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F95AC34E-B9F8-F73B-1B0A-4031A48466E8</referredTableID>
+<keyObject>EAF209ED-E328-E1D9-F08C-C29D7ADF573F</keyObject>
+<referredKeyID>EAF209ED-E328-E1D9-F08C-C29D7ADF573F</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Num_boleta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

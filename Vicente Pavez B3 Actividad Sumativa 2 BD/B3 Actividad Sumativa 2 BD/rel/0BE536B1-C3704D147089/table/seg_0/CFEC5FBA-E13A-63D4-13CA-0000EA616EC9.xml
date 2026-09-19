@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CFEC5FBA-E13A-63D4-13CA-0000EA616EC9" name="CONTRATO">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>9F2792D5-1D30-523F-C113-725AED9611E9</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_contrato" id="F9FC7E9C-C3FC-1DCD-AA6B-4E034FA77291">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>96081F30-3750-AF62-3877-1835C26C7BF6</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sist_salud" id="639D1D99-AAC1-5C95-983F-679E5235D6EC">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>244051BB-FF94-6219-9FAD-4A9DE3D7913D</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="afp" id="3B9CC0CF-B0B8-CE5F-F0C9-71EFC637C2D5">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>5BE93CD1-6B11-FE33-A3AB-021B2E49B5BC</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_contrato" id="B2DD2BB4-3AA1-386B-77E1-D6C8451D63C0">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>D780F83B-7627-0520-68BE-A64FA8FE40F9</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TRABAJADORES_rut" id="66F5E097-F226-2D5E-2863-46673F7C6C37">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>2FBC6AD3-5E12-BFB5-06C3-D75EEFA86DEA</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37C19CB8-DC45-26B3-EDFC-113B27E7D507" referredColumn="50FF5B1E-0D76-D0D6-C31E-421AE29673DE"/>
+</associations>
+</Column>
+<Column name="CARGO_id_cargo" id="D7A60309-8446-9EDC-EA5A-8765A462CDC0">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>8DC77BC6-6E58-3892-D591-B9C0B8B9BF84</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FC40B5F1-90B5-C97E-2D55-476C31459B09" referredColumn="9C97B2C1-45F6-4D55-2CAA-B3C0F57904E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6660F290-47A2-2648-A96A-DB8685B2BD28" name="CONTRATO_PK">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>7FD77990-704C-C119-A951-EDCD72FC2A0C</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9FC7E9C-C3FC-1DCD-AA6B-4E034FA77291"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="88694390-9D58-6F66-8058-A4EF2B7B3FDD" name="CONTRATO__IDX">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E8A7FCD8-AD09-25AD-7DE6-8406247322A0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="66F5E097-F226-2D5E-2863-46673F7C6C37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F6BADA9B-F78F-4517-D3B0-DDA5DEDAB1F0" name="CONTRATO__IDXv1">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>676B51A5-E53A-3680-19AC-F3C3A768B667</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D7A60309-8446-9EDC-EA5A-8765A462CDC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FB7CEF84-C64C-D0E9-369B-EEE1738F518E" name="CONTRATO_TRABAJADORES_FK">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>E8A7FCD8-AD09-25AD-7DE6-8406247322A0</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66F5E097-F226-2D5E-2863-46673F7C6C37"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EEC3E6DC-6683-A96A-EC0A-B1874345EF42" name="CONTRATO_CARGO_FK">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>676B51A5-E53A-3680-19AC-F3C3A768B667</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7A60309-8446-9EDC-EA5A-8765A462CDC0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5DC01E81-609C-EBB1-99FC-49C26912AB30" containerWithKeyObject="FD01122B-1116-97D3-583E-EE682ED4C8E2" localFKIndex="780FD626-926A-CDFA-4050-DE7B22553AD6" name="TRABAJADORES_SUCURSAL_FK">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 21:34:28 UTC</createdTime>
+<generatorID>F8999144-7A62-DFFE-24A8-98F6BBF1F8CD</generatorID>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<referredTableLongName>SUCURSAL</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6BC0BCC1-3981-7AE8-5AB0-A2251F46F77A</referredTableID>
+<keyObject>D95F03D0-6D3A-8490-D7C4-0B1BAC8E1DC6</keyObject>
+<referredKeyID>D95F03D0-6D3A-8490-D7C4-0B1BAC8E1DC6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_sucursal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

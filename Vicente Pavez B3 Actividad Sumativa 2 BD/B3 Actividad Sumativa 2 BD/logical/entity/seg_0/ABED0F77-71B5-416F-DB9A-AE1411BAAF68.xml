@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ABED0F77-71B5-416F-DB9A-AE1411BAAF68" name="MARCA">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 02:02:54 UTC</createdTime>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<engineerTo>
+<item key="0BE536B1-AD48-BACC-ADB7-C3704D147089" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>A388A33F-4FBE-A8AC-FD44-980B455C29AF</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_marca" id="78AF49F5-5F2F-596F-08F7-E2831A78546A">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 02:06:02 UTC</createdTime>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<engineerTo>
+<item key="0BE536B1-AD48-BACC-ADB7-C3704D147089" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT057</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_marca" id="729CB680-6E67-B8FA-F313-74F567444B5B">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 02:05:47 UTC</createdTime>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<engineerTo>
+<item key="0BE536B1-AD48-BACC-ADB7-C3704D147089" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="67BB9D57-496C-2A46-02F1-C089F395D396" name="MARCA PK">
+<createdBy>vicente</createdBy>
+<createdTime>2026-09-19 02:06:20 UTC</createdTime>
+<ownerDesignName>B3 Actividad Sumativa 2 BD</ownerDesignName>
+<engineerTo>
+<item key="0BE536B1-AD48-BACC-ADB7-C3704D147089" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>78AF49F5-5F2F-596F-08F7-E2831A78546A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

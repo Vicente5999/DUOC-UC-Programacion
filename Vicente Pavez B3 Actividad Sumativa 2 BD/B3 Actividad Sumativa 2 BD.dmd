@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="B3 Actividad Sumativa 2 BD" id="EC562BDA-95F2-020B-6319-09C4D39FA48F" version="3.5">
+<createdBy>Vicen</createdBy>
+<createdTime>2026-09-12 00:49:10 UTC</createdTime>
+<ownerDesignName>xd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>EC562BDA-95F2-020B-6319-09C4D39FA48F</designId>
+</OSDM_Design>
